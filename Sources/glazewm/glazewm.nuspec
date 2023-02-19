@@ -54,7 +54,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <!--<mailingListUrl></mailingListUrl>-->
     <!--<bugTrackerUrl></bugTrackerUrl>-->
     <bugTrackerUrl>https://github.com/lars-berger/GlazeWM/issues</bugTrackerUrl>
-    <tags>glazewm window-manager i3wm polybar</tags>
+    <tags>glazewm window-manager i3wm polybar portable</tags>
     <summary>A tiling window manager for Windows inspired by i3 and Polybar.</summary>
     <description>
 GlazeWM is a tiling window manager for Windows inspired by i3 and Polybar.
