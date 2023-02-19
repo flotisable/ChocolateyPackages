@@ -27,6 +27,7 @@
 
 ## Packages
    - [glazewm](https://github.com/lars-berger/GlazeWM): [i3wm](https://i3wm.org/) like [tiling window manager](https://en.wikipedia.org/wiki/Tiling_window_manager) for Windows
+   - [efm-langserver](https://github.com/mattn/efm-langserver): General purpose Language Server 
 
 ## Author
    Flotisable <s09930698@gmail.com>
