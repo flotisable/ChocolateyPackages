@@ -6,10 +6,8 @@ jobs:
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v4
-      - name: Setup Chocolatey
-        run: ./installChocolatey.ps1
       - name: Setup AU Powershell Module
-        run: Install-Module au
+        run: choco install au
       - name: Run Update Script
         run: ./update.ps1
       - name: Commit Updated Packages To Repo
