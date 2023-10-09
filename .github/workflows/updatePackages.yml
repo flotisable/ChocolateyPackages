@@ -1,0 +1,24 @@
+name: Update Packages
+on: workflow_dispatch
+jobs:
+  update:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v4
+      - name: Setup Chocolatey
+        run: ./installChocolatey.ps1
+      - name: Setup AU Powershell Module
+        run: Install-Module au
+      - name: Run Update Script
+        run: ./update.ps1
+      - name: Commit Updated Packages To Repo
+        run: |
+          If( "$(git diff-index HEAD)" -ne "" )
+          {
+          git config user.name  github-actions
+          git config user.email github-actions@github.com
+          git add .
+          git commit -m "update packages by github action"
+          git push
+          }
