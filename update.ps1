@@ -2,7 +2,7 @@ $rootDir    = "$(Split-Path $PSCommandPath)"
 $sourceDir  = 'Sources'
 $packageDir = 'Packages'
 
-ForEach( $dir in Get-ChildItem -Dir $sourceDir )
+ForEach( $dir in Get-ChildItem -Dir $sourceDir -Name )
 {
   Set-Location $rootDir/$sourceDir/$dir
 
