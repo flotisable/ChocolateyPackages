@@ -26,7 +26,7 @@
      ```
 
 ## Packages
-   - [glazewm](https://github.com/lars-berger/GlazeWM): [i3wm](https://i3wm.org/) like [tiling window manager](https://en.wikipedia.org/wiki/Tiling_window_manager) for Windows
+   - [glazewm](https://github.com/lars-berger/GlazeWM): [i3wm](https://i3wm.org/) like [tiling window manager](https://en.wikipedia.org/wiki/Tiling_window_manager) for Windows (there is [installed version](https://community.chocolatey.org/packages/glazewm) in chocolatey community repository now)
    - [efm-langserver](https://github.com/mattn/efm-langserver): General purpose Language Server 
 
 ## Author
